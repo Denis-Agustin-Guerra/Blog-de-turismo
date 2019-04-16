@@ -4,12 +4,10 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .logo img{
   margin: 5%;
   width: 100%;
   border-radius: 20px!important;
-
 }
 .buttons-nav a{
   margin: 1%;
@@ -17,31 +15,49 @@ body{
 .buttons-nav{
   text-align: right;
 }
-h4{
+.titulo h4{
   color: white;
 }
 .redes-sociales{
-  height: 3000px;
+  height: 2000px;
 
 }
 .redes-sociales img{
   width: 50px;
   margin: 1%;
 }
-.galeria{
-
-}
 .galeria img{
   width: 100%;
 }
-
+.img-article img{
+  width: 90%;
+  margin: 3%;
+}
+.contenido-articulo{
+  padding: 1%;
+}
+.comentario{
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 0.5%;
+  color: white;
+}
+.autor img{
+  padding: 5%;
+}
+.autor h5{
+  text-align: center;
+}
+.autor p{
+  padding: 5%;
+  text-align: center;
+}
 @media (max-width: 760px){
   .redes-sociales img{
     width: 35px;
     margin: 0.5%;
   }
 }
-
 @media (max-width: 420px){
   .buttons-nav a{
     margin: 3%;
